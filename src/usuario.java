@@ -4,7 +4,7 @@ public class usuario {
     private String email;
     private String cpf; //utilizamos como string para evitar erros de leitura, pontos ou traços
     private String senha;
-    private String telefone; //utilizamos como string para evitar erros de leitura, como por exemplo se o usuaário digitar - ou ()
+    private String telefone; //utilizamos como string para evitar erros de leitura, como por exemplo se o usuário digitar - ou ()
 
 
     public usuario(String nome, String email, String cpf, String senha, String telefone) {
