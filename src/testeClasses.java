@@ -9,8 +9,8 @@ public class testeClasses {
 
         int selecUser;
 
-            System.out.print("Digit [1] - Caso tenha encontrado um animal perdido\nDigite [2] - Caso tenha perdido um animal\n");
-            selecUser = sc.nextInt();
+        System.out.print("Digit [1] - Caso tenha encontrado um animal perdido\nDigite [2] - Caso tenha perdido um animal\n");
+        selecUser = sc.nextInt();
 
         if(selecUser == 1) {
             chamadoAnimalEncontrado chamadoAnimalEncontrado = new chamadoAnimalEncontrado();
